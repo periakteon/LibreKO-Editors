@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <IsTestProject>true</IsTestProject>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.14.1" />
+    <PackageReference Include="xunit" Version="2.9.3" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="3.1.4" />
+    <ProjectReference Include="../../src/LibreKO.Editors.DataHost/LibreKO.Editors.DataHost.csproj" />
+    <Compile Include="../LibreKO.Editors.Core.Tests/SourceFixture.cs" Link="Fixtures/SourceFixture.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Using Include="Xunit" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="../../../LibreKO/Server/LibreKO.Game/World/SmdFile.cs" Link="Stock/SmdFile.cs" />
+    <Compile Include="../LibreKO.Editors.Core.Tests/SmdFixtures.cs" Link="Fixtures/SmdFixtures.cs" />
+  </ItemGroup>
+</Project>

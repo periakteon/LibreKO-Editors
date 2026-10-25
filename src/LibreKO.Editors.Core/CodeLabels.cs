@@ -1,0 +1,6 @@
+namespace LibreKO.Editors.Core;
+public static class CodeLabels {
+ public static readonly IReadOnlyDictionary<string,string> Races=new Dictionary<string,string>{["0"]="Any race",["1"]="Karus · Arch Tuarek",["2"]="Karus · Tuarek",["3"]="Karus · Wrinkle Tuarek",["4"]="Karus · Puri Tuarek",["6"]="Karus · Porutu",["11"]="El Morad · Barbarian",["12"]="El Morad · Male",["13"]="El Morad · Female",["14"]="El Morad · Kurian"};
+ public static readonly IReadOnlyDictionary<string,string> Slots=new Dictionary<string,string>{["0"]="Either hand",["1"]="Right hand",["2"]="Left hand",["3"]="Two-handed · right",["4"]="Two-handed · left",["5"]="Chest",["6"]="Legs",["7"]="Helmet",["8"]="Gloves",["9"]="Boots",["10"]="Earring",["11"]="Necklace",["12"]="Ring",["14"]="Belt",["20"]="Pet",["25"]="Bag",["100"]="Costume glove · either",["101"]="Costume glove · right",["102"]="Costume glove · left",["105"]="Costume chest",["107"]="Costume helmet",["110"]="Wings",["111"]="Fairy",["112"]="Tattoo",["113"]="Talisman",["114"]="Emblem",["127"]="Tattoo (alternate)"};
+ public static string Describe(IReadOnlyDictionary<string,string>? choices,string id)=>choices?.TryGetValue(id,out var name)==true?$"{id} · {name}":$"{id} · Unknown code";
+}

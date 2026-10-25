@@ -1,0 +1,21 @@
+**/bin/
+**/obj/
+**/.godot/
+workspace/
+artifacts/
+.superpowers/
+profiles/local.json
+profiles/*.json
+!profiles/example.json
+.env
+.env.*
+!.env.example
+*.pfx
+*.p12
+*.pem
+*.key
+*.user
+.vs/
+# Raw release logs are preserved in the checked-in validation archive.
+/docs/validation/latest-release-*.log
+

@@ -1,0 +1,7 @@
+using LibreKO.Editors.Contracts;
+using LibreKO.Editors.Core.Events;
+using System.Text.Json.Nodes;
+public class EventScheduleTests {
+ [Fact] public void ScheduleClocksAndSentinelsAreExplicit(){EventDocumentSnapshot Doc(EventFamily family,EventTable table)=>new(new(family,1),[new(new(table,1),new(){["Id"]=1,["Day"]=null,["Hour"]=7,["Minute"]=30},"v")],"v");var utc=Assert.Single(EventScheduleProjection.Project(Doc(EventFamily.CollectionRace,EventTable.CollectionRaceSchedules),null));Assert.Equal("UTC",utc.Clock);Assert.Null(utc.Day);var temple=Assert.Single(EventScheduleProjection.Project(Doc(EventFamily.Temple,EventTable.TempleEventSchedules),null));Assert.Contains("unspecified",temple.Clock);Assert.Contains("Europe/Berlin",Assert.Single(EventScheduleProjection.Project(Doc(EventFamily.Temple,EventTable.TempleEventSchedules),"Europe/Berlin")).Clock);}
+ [Fact] public void SiegeCountdownCrossesToPreviousDayAndZeroDisables(){var values=new JsonObject{["CastleIndex"]=1,["WarDay"]=1,["WarTime"]=0,["WarMinute"]=5};EventDocumentSnapshot Doc()=>new(new(EventFamily.CastleSiege,1),[new(new(EventTable.SiegeWarfare,1),values,"v")],"v");var entries=EventScheduleProjection.Project(Doc(),null);var countdown=Assert.Single(entries,e=>e.Countdown);Assert.Equal(DayOfWeek.Saturday,countdown.Day);Assert.Equal(23,countdown.Hour);Assert.Equal(55,countdown.Minute);values["WarDay"]=0;Assert.Empty(EventScheduleProjection.Project(Doc(),null));}
+}

@@ -1,0 +1,11 @@
+using System.Text.Json.Nodes;
+using LibreKO.Editors.Contracts;
+using LibreKO.Editors.Core;
+using LibreKO.Editors.Core.Events;
+public class EventHistoryTests {
+ static EventRowSnapshot Row(int id,int count)=>new(new(EventTable.LotteryRewards,id),new(){["Id"]=id,["LotteryId"]=1,["Count"]=count,["Long"]=9007199254740993L},"v");
+ static EventDocumentSnapshot Doc(params EventRowSnapshot[] rows)=>new(new(EventFamily.Lottery,1),rows,"v");
+ [Fact] public void RecoveryDistinguishesInsertsUpdatesAndDeletes(){var row=Row(1,2);foreach(var mutation in new[]{new EventRowChange(row.Key,null,row.Values),new(row.Key,row,Row(1,3).Values),new(row.Key,row,null)}){var change=new EventChange(Guid.NewGuid(),Doc(row),[mutation]);var before=mutation.Before==null?Doc():Doc(mutation.Before);var after=mutation.After==null?Doc():Doc(new EventRowSnapshot(row.Key,mutation.After,"a"));Assert.Equal(RecoveryDisposition.NotApplied,EventRecovery.Resolve(change,before));Assert.Equal(RecoveryDisposition.Applied,EventRecovery.Resolve(change,after));Assert.Equal(RecoveryDisposition.Conflict,EventRecovery.Resolve(change,Doc(Row(1,77))));}}
+ [Fact] public void JournalEvidenceIsImmutableAndKeepsExactValues(){var root=Path.Combine(Path.GetTempPath(),"event-journal-"+Guid.NewGuid());var journal=new EventJournal(root);var row=Row(1,2);var c=new EventChange(Guid.NewGuid(),new(new(EventFamily.Lottery,1),[],"missing"),[new(row.Key,null,row.Values)]);journal.Prepare(c);Assert.Throws<IOException>(()=>journal.Prepare(c));Assert.Single(journal.Pending());journal.Commit(c,Doc(row));Assert.Empty(journal.Pending());Assert.Equal(9007199254740993L,journal.Read(c.OperationId).Change.Rows[0].After!["Long"]!.GetValue<long>());Assert.Throws<IOException>(()=>journal.Prepare(c));Assert.Single(journal.List());Assert.False(Directory.Exists(Path.Combine(root,"journal")));Assert.False(Directory.Exists(Path.Combine(root,"changes")));}
+ [Fact] public void ReplayChangesOnlyAffectedFields(){var before=Row(1,2);var after=Row(1,3);var c=new EventChange(Guid.NewGuid(),Doc(before),[new(before.Key,before,after.Values)]);var current=Row(1,3);current.Values["Long"]=9007199254740995L;var reverse=EventReplay.Prepare(new(c,Doc(after)),Doc(current),true);Assert.Equal("2",reverse.Rows[0].After!["Count"]!.ToString());Assert.Equal(9007199254740995L,reverse.Rows[0].After!["Long"]!.GetValue<long>());}
+}

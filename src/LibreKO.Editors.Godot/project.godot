@@ -1,0 +1,39 @@
+config_version=5
+[application]
+config/name="LibreKO Editors"
+run/main_scene="res://editor/Main.tscn"
+config/features=PackedStringArray("4.7", "C#")
+[display]
+window/size/viewport_width=1500
+window/size/viewport_height=950
+window/size/window_width_override=1500
+window/size/window_height_override=950
+window/stretch/mode="disabled"
+window/size/min_width=1280
+window/size/min_height=760
+[rendering]
+renderer/rendering_method="forward_plus"
+rendering_device/driver.windows="d3d12"
+[dotnet]
+project/assembly_name="LibreKO.Editors.Godot"
+
+
+[shader_globals]
+
+
+fx_scene_depth={
+"type": "sampler2D",
+"value": ""
+}
+fx_scene_view_projection={
+"type": "mat4",
+"value": Projection(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)
+}
+fx_scene_depth_live={
+"type": "bool",
+"value": false
+}
+item_shine_classic={
+"type": "float",
+"value": 0.0
+}

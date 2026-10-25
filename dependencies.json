@@ -1,0 +1,11 @@
+{
+  "libreko": {
+    "repository": "https://github.com/periakteon/LibreKO.git",
+    "upstream": "https://github.com/ZeusAFK/LibreKO",
+    "commit": "e5f0e4200fd42f69934f55557f92f2ee2ccfafde",
+    "checkout": "../LibreKO",
+    "license": "AGPL-3.0"
+  },
+  "godot": { "version": "4.7.2", "variant": "mono", "license": "MIT" },
+  "dotnet": { "sdkMajor": 10, "desktopTarget": "net9.0", "dataHostTarget": "net10.0" }
+}

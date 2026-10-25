@@ -1,0 +1,546 @@
+[
+  {
+    "licenseFiles": [
+      "lostromb-concentus.oggfile-27c3125205dd-LICENSE"
+    ],
+    "copyright": "Copyright © Logan Stromberg, Andrew Ward",
+    "license": "MIT",
+    "package": "Concentus.Oggfile",
+    "revision": "27c3125205ddcd891822a398284b246636fafb94",
+    "repository": "https://github.com/lostromb/concentus.oggfile",
+    "version": "1.0.7",
+    "authors": "Logan Stromberg"
+  },
+  {
+    "licenseFiles": [
+      "Concentus-2.2.2-LICENSE"
+    ],
+    "copyright": "© Xiph.Org Foundation, Skype Limited, CSIRO, Microsoft Corp.",
+    "license": "LICENSE",
+    "package": "Concentus",
+    "revision": "6c2328dc19044601e33a9c11628b8d60e1f3011c",
+    "repository": "https://github.com/lostromb/concentus",
+    "version": "2.2.2",
+    "authors": "Logan Stromberg"
+  },
+  {
+    "licenseFiles": [
+      "Godot-LICENSE.txt"
+    ],
+    "copyright": "Copyright (c) Godot Engine contributors",
+    "license": "MIT",
+    "package": "GodotSharp",
+    "revision": "ed1daf0bf001b61586d9930840f2f1394092c079",
+    "repository": "https://github.com/godotengine/godot/tree/master/modules/mono/glue/GodotSharp/GodotSharp",
+    "version": "4.7.2",
+    "authors": "Godot Engine contributors"
+  },
+  {
+    "licenseFiles": [
+      "dotnet-efcore-3f7d40ec7be1-LICENSE.txt"
+    ],
+    "copyright": "© Microsoft Corporation. All rights reserved.",
+    "license": "MIT",
+    "package": "Microsoft.EntityFrameworkCore.Abstractions",
+    "revision": "3f7d40ec7be104358780955b3f0fea62495264dc",
+    "repository": "https://github.com/dotnet/efcore",
+    "version": "9.0.8",
+    "authors": "Microsoft"
+  },
+  {
+    "licenseFiles": [
+      "dotnet-efcore-3f7d40ec7be1-LICENSE.txt"
+    ],
+    "copyright": "© Microsoft Corporation. All rights reserved.",
+    "license": "MIT",
+    "package": "Microsoft.EntityFrameworkCore.Relational",
+    "revision": "3f7d40ec7be104358780955b3f0fea62495264dc",
+    "repository": "https://github.com/dotnet/efcore",
+    "version": "9.0.8",
+    "authors": "Microsoft"
+  },
+  {
+    "licenseFiles": [
+      "dotnet-efcore-3f7d40ec7be1-LICENSE.txt"
+    ],
+    "copyright": "© Microsoft Corporation. All rights reserved.",
+    "license": "MIT",
+    "package": "Microsoft.EntityFrameworkCore",
+    "revision": "3f7d40ec7be104358780955b3f0fea62495264dc",
+    "repository": "https://github.com/dotnet/efcore",
+    "version": "9.0.8",
+    "authors": "Microsoft"
+  },
+  {
+    "licenseFiles": [
+      "Microsoft.Extensions.Caching.Abstractions-9.0.8-LICENSE.TXT",
+      "Microsoft.Extensions.Caching.Abstractions-9.0.8-THIRD-PARTY-NOTICES.TXT"
+    ],
+    "copyright": "© Microsoft Corporation. All rights reserved.",
+    "license": "MIT",
+    "package": "Microsoft.Extensions.Caching.Abstractions",
+    "revision": "aae90fa09086a9be09dac83fa66542232c7269d8",
+    "repository": "https://github.com/dotnet/runtime",
+    "version": "9.0.8",
+    "authors": "Microsoft"
+  },
+  {
+    "licenseFiles": [
+      "Microsoft.Extensions.Caching.Memory-9.0.8-LICENSE.TXT",
+      "Microsoft.Extensions.Caching.Memory-9.0.8-THIRD-PARTY-NOTICES.TXT"
+    ],
+    "copyright": "© Microsoft Corporation. All rights reserved.",
+    "license": "MIT",
+    "package": "Microsoft.Extensions.Caching.Memory",
+    "revision": "aae90fa09086a9be09dac83fa66542232c7269d8",
+    "repository": "https://github.com/dotnet/runtime",
+    "version": "9.0.8",
+    "authors": "Microsoft"
+  },
+  {
+    "licenseFiles": [
+      "Microsoft.Extensions.Configuration.Abstractions-10.0.5-THIRD-PARTY-NOTICES.TXT"
+    ],
+    "copyright": "© Microsoft Corporation. All rights reserved.",
+    "license": "MIT",
+    "package": "Microsoft.Extensions.Configuration.Abstractions",
+    "revision": "a612c2a1056fe3265387ae3ff7c94eba1505caf9",
+    "repository": "https://github.com/dotnet/dotnet",
+    "version": "10.0.5",
+    "authors": "Microsoft"
+  },
+  {
+    "licenseFiles": [
+      "Microsoft.Extensions.Configuration.Binder-10.0.5-THIRD-PARTY-NOTICES.TXT"
+    ],
+    "copyright": "© Microsoft Corporation. All rights reserved.",
+    "license": "MIT",
+    "package": "Microsoft.Extensions.Configuration.Binder",
+    "revision": "a612c2a1056fe3265387ae3ff7c94eba1505caf9",
+    "repository": "https://github.com/dotnet/dotnet",
+    "version": "10.0.5",
+    "authors": "Microsoft"
+  },
+  {
+    "licenseFiles": [
+      "Microsoft.Extensions.Configuration.CommandLine-10.0.5-THIRD-PARTY-NOTICES.TXT"
+    ],
+    "copyright": "© Microsoft Corporation. All rights reserved.",
+    "license": "MIT",
+    "package": "Microsoft.Extensions.Configuration.CommandLine",
+    "revision": "a612c2a1056fe3265387ae3ff7c94eba1505caf9",
+    "repository": "https://github.com/dotnet/dotnet",
+    "version": "10.0.5",
+    "authors": "Microsoft"
+  },
+  {
+    "licenseFiles": [
+      "Microsoft.Extensions.Configuration.EnvironmentVariables-10.0.5-THIRD-PARTY-NOTICES.TXT"
+    ],
+    "copyright": "© Microsoft Corporation. All rights reserved.",
+    "license": "MIT",
+    "package": "Microsoft.Extensions.Configuration.EnvironmentVariables",
+    "revision": "a612c2a1056fe3265387ae3ff7c94eba1505caf9",
+    "repository": "https://github.com/dotnet/dotnet",
+    "version": "10.0.5",
+    "authors": "Microsoft"
+  },
+  {
+    "licenseFiles": [
+      "Microsoft.Extensions.Configuration.FileExtensions-10.0.5-THIRD-PARTY-NOTICES.TXT"
+    ],
+    "copyright": "© Microsoft Corporation. All rights reserved.",
+    "license": "MIT",
+    "package": "Microsoft.Extensions.Configuration.FileExtensions",
+    "revision": "a612c2a1056fe3265387ae3ff7c94eba1505caf9",
+    "repository": "https://github.com/dotnet/dotnet",
+    "version": "10.0.5",
+    "authors": "Microsoft"
+  },
+  {
+    "licenseFiles": [
+      "Microsoft.Extensions.Configuration.Json-10.0.5-THIRD-PARTY-NOTICES.TXT"
+    ],
+    "copyright": "© Microsoft Corporation. All rights reserved.",
+    "license": "MIT",
+    "package": "Microsoft.Extensions.Configuration.Json",
+    "revision": "a612c2a1056fe3265387ae3ff7c94eba1505caf9",
+    "repository": "https://github.com/dotnet/dotnet",
+    "version": "10.0.5",
+    "authors": "Microsoft"
+  },
+  {
+    "licenseFiles": [
+      "Microsoft.Extensions.Configuration.UserSecrets-10.0.5-THIRD-PARTY-NOTICES.TXT"
+    ],
+    "copyright": "© Microsoft Corporation. All rights reserved.",
+    "license": "MIT",
+    "package": "Microsoft.Extensions.Configuration.UserSecrets",
+    "revision": "a612c2a1056fe3265387ae3ff7c94eba1505caf9",
+    "repository": "https://github.com/dotnet/dotnet",
+    "version": "10.0.5",
+    "authors": "Microsoft"
+  },
+  {
+    "licenseFiles": [
+      "Microsoft.Extensions.Configuration-10.0.5-THIRD-PARTY-NOTICES.TXT"
+    ],
+    "copyright": "© Microsoft Corporation. All rights reserved.",
+    "license": "MIT",
+    "package": "Microsoft.Extensions.Configuration",
+    "revision": "a612c2a1056fe3265387ae3ff7c94eba1505caf9",
+    "repository": "https://github.com/dotnet/dotnet",
+    "version": "10.0.5",
+    "authors": "Microsoft"
+  },
+  {
+    "licenseFiles": [
+      "Microsoft.Extensions.DependencyInjection.Abstractions-10.0.5-THIRD-PARTY-NOTICES.TXT"
+    ],
+    "copyright": "© Microsoft Corporation. All rights reserved.",
+    "license": "MIT",
+    "package": "Microsoft.Extensions.DependencyInjection.Abstractions",
+    "revision": "a612c2a1056fe3265387ae3ff7c94eba1505caf9",
+    "repository": "https://github.com/dotnet/dotnet",
+    "version": "10.0.5",
+    "authors": "Microsoft"
+  },
+  {
+    "licenseFiles": [
+      "Microsoft.Extensions.DependencyInjection-10.0.5-THIRD-PARTY-NOTICES.TXT"
+    ],
+    "copyright": "© Microsoft Corporation. All rights reserved.",
+    "license": "MIT",
+    "package": "Microsoft.Extensions.DependencyInjection",
+    "revision": "a612c2a1056fe3265387ae3ff7c94eba1505caf9",
+    "repository": "https://github.com/dotnet/dotnet",
+    "version": "10.0.5",
+    "authors": "Microsoft"
+  },
+  {
+    "licenseFiles": [
+      "Microsoft.Extensions.Diagnostics.Abstractions-10.0.5-THIRD-PARTY-NOTICES.TXT"
+    ],
+    "copyright": "© Microsoft Corporation. All rights reserved.",
+    "license": "MIT",
+    "package": "Microsoft.Extensions.Diagnostics.Abstractions",
+    "revision": "a612c2a1056fe3265387ae3ff7c94eba1505caf9",
+    "repository": "https://github.com/dotnet/dotnet",
+    "version": "10.0.5",
+    "authors": "Microsoft"
+  },
+  {
+    "licenseFiles": [
+      "Microsoft.Extensions.Diagnostics-10.0.5-THIRD-PARTY-NOTICES.TXT"
+    ],
+    "copyright": "© Microsoft Corporation. All rights reserved.",
+    "license": "MIT",
+    "package": "Microsoft.Extensions.Diagnostics",
+    "revision": "a612c2a1056fe3265387ae3ff7c94eba1505caf9",
+    "repository": "https://github.com/dotnet/dotnet",
+    "version": "10.0.5",
+    "authors": "Microsoft"
+  },
+  {
+    "licenseFiles": [
+      "Microsoft.Extensions.FileProviders.Abstractions-10.0.5-THIRD-PARTY-NOTICES.TXT"
+    ],
+    "copyright": "© Microsoft Corporation. All rights reserved.",
+    "license": "MIT",
+    "package": "Microsoft.Extensions.FileProviders.Abstractions",
+    "revision": "a612c2a1056fe3265387ae3ff7c94eba1505caf9",
+    "repository": "https://github.com/dotnet/dotnet",
+    "version": "10.0.5",
+    "authors": "Microsoft"
+  },
+  {
+    "licenseFiles": [
+      "Microsoft.Extensions.FileProviders.Physical-10.0.5-THIRD-PARTY-NOTICES.TXT"
+    ],
+    "copyright": "© Microsoft Corporation. All rights reserved.",
+    "license": "MIT",
+    "package": "Microsoft.Extensions.FileProviders.Physical",
+    "revision": "a612c2a1056fe3265387ae3ff7c94eba1505caf9",
+    "repository": "https://github.com/dotnet/dotnet",
+    "version": "10.0.5",
+    "authors": "Microsoft"
+  },
+  {
+    "licenseFiles": [
+      "Microsoft.Extensions.FileSystemGlobbing-10.0.5-THIRD-PARTY-NOTICES.TXT"
+    ],
+    "copyright": "© Microsoft Corporation. All rights reserved.",
+    "license": "MIT",
+    "package": "Microsoft.Extensions.FileSystemGlobbing",
+    "revision": "a612c2a1056fe3265387ae3ff7c94eba1505caf9",
+    "repository": "https://github.com/dotnet/dotnet",
+    "version": "10.0.5",
+    "authors": "Microsoft"
+  },
+  {
+    "licenseFiles": [
+      "Microsoft.Extensions.Hosting.Abstractions-10.0.5-THIRD-PARTY-NOTICES.TXT"
+    ],
+    "copyright": "© Microsoft Corporation. All rights reserved.",
+    "license": "MIT",
+    "package": "Microsoft.Extensions.Hosting.Abstractions",
+    "revision": "a612c2a1056fe3265387ae3ff7c94eba1505caf9",
+    "repository": "https://github.com/dotnet/dotnet",
+    "version": "10.0.5",
+    "authors": "Microsoft"
+  },
+  {
+    "licenseFiles": [
+      "Microsoft.Extensions.Hosting-10.0.5-THIRD-PARTY-NOTICES.TXT"
+    ],
+    "copyright": "© Microsoft Corporation. All rights reserved.",
+    "license": "MIT",
+    "package": "Microsoft.Extensions.Hosting",
+    "revision": "a612c2a1056fe3265387ae3ff7c94eba1505caf9",
+    "repository": "https://github.com/dotnet/dotnet",
+    "version": "10.0.5",
+    "authors": "Microsoft"
+  },
+  {
+    "licenseFiles": [
+      "Microsoft.Extensions.Logging.Abstractions-10.0.5-THIRD-PARTY-NOTICES.TXT"
+    ],
+    "copyright": "© Microsoft Corporation. All rights reserved.",
+    "license": "MIT",
+    "package": "Microsoft.Extensions.Logging.Abstractions",
+    "revision": "a612c2a1056fe3265387ae3ff7c94eba1505caf9",
+    "repository": "https://github.com/dotnet/dotnet",
+    "version": "10.0.5",
+    "authors": "Microsoft"
+  },
+  {
+    "licenseFiles": [
+      "Microsoft.Extensions.Logging.Configuration-10.0.5-THIRD-PARTY-NOTICES.TXT"
+    ],
+    "copyright": "© Microsoft Corporation. All rights reserved.",
+    "license": "MIT",
+    "package": "Microsoft.Extensions.Logging.Configuration",
+    "revision": "a612c2a1056fe3265387ae3ff7c94eba1505caf9",
+    "repository": "https://github.com/dotnet/dotnet",
+    "version": "10.0.5",
+    "authors": "Microsoft"
+  },
+  {
+    "licenseFiles": [
+      "Microsoft.Extensions.Logging.Console-10.0.5-THIRD-PARTY-NOTICES.TXT"
+    ],
+    "copyright": "© Microsoft Corporation. All rights reserved.",
+    "license": "MIT",
+    "package": "Microsoft.Extensions.Logging.Console",
+    "revision": "a612c2a1056fe3265387ae3ff7c94eba1505caf9",
+    "repository": "https://github.com/dotnet/dotnet",
+    "version": "10.0.5",
+    "authors": "Microsoft"
+  },
+  {
+    "licenseFiles": [
+      "Microsoft.Extensions.Logging.Debug-10.0.5-THIRD-PARTY-NOTICES.TXT"
+    ],
+    "copyright": "© Microsoft Corporation. All rights reserved.",
+    "license": "MIT",
+    "package": "Microsoft.Extensions.Logging.Debug",
+    "revision": "a612c2a1056fe3265387ae3ff7c94eba1505caf9",
+    "repository": "https://github.com/dotnet/dotnet",
+    "version": "10.0.5",
+    "authors": "Microsoft"
+  },
+  {
+    "licenseFiles": [
+      "Microsoft.Extensions.Logging.EventLog-10.0.5-THIRD-PARTY-NOTICES.TXT"
+    ],
+    "copyright": "© Microsoft Corporation. All rights reserved.",
+    "license": "MIT",
+    "package": "Microsoft.Extensions.Logging.EventLog",
+    "revision": "a612c2a1056fe3265387ae3ff7c94eba1505caf9",
+    "repository": "https://github.com/dotnet/dotnet",
+    "version": "10.0.5",
+    "authors": "Microsoft"
+  },
+  {
+    "licenseFiles": [
+      "Microsoft.Extensions.Logging.EventSource-10.0.5-THIRD-PARTY-NOTICES.TXT"
+    ],
+    "copyright": "© Microsoft Corporation. All rights reserved.",
+    "license": "MIT",
+    "package": "Microsoft.Extensions.Logging.EventSource",
+    "revision": "a612c2a1056fe3265387ae3ff7c94eba1505caf9",
+    "repository": "https://github.com/dotnet/dotnet",
+    "version": "10.0.5",
+    "authors": "Microsoft"
+  },
+  {
+    "licenseFiles": [
+      "Microsoft.Extensions.Logging-10.0.5-THIRD-PARTY-NOTICES.TXT"
+    ],
+    "copyright": "© Microsoft Corporation. All rights reserved.",
+    "license": "MIT",
+    "package": "Microsoft.Extensions.Logging",
+    "revision": "a612c2a1056fe3265387ae3ff7c94eba1505caf9",
+    "repository": "https://github.com/dotnet/dotnet",
+    "version": "10.0.5",
+    "authors": "Microsoft"
+  },
+  {
+    "licenseFiles": [
+      "Microsoft.Extensions.Options.ConfigurationExtensions-10.0.5-THIRD-PARTY-NOTICES.TXT"
+    ],
+    "copyright": "© Microsoft Corporation. All rights reserved.",
+    "license": "MIT",
+    "package": "Microsoft.Extensions.Options.ConfigurationExtensions",
+    "revision": "a612c2a1056fe3265387ae3ff7c94eba1505caf9",
+    "repository": "https://github.com/dotnet/dotnet",
+    "version": "10.0.5",
+    "authors": "Microsoft"
+  },
+  {
+    "licenseFiles": [
+      "Microsoft.Extensions.Options-10.0.5-THIRD-PARTY-NOTICES.TXT"
+    ],
+    "copyright": "© Microsoft Corporation. All rights reserved.",
+    "license": "MIT",
+    "package": "Microsoft.Extensions.Options",
+    "revision": "a612c2a1056fe3265387ae3ff7c94eba1505caf9",
+    "repository": "https://github.com/dotnet/dotnet",
+    "version": "10.0.5",
+    "authors": "Microsoft"
+  },
+  {
+    "licenseFiles": [
+      "Microsoft.Extensions.Primitives-10.0.5-THIRD-PARTY-NOTICES.TXT"
+    ],
+    "copyright": "© Microsoft Corporation. All rights reserved.",
+    "license": "MIT",
+    "package": "Microsoft.Extensions.Primitives",
+    "revision": "a612c2a1056fe3265387ae3ff7c94eba1505caf9",
+    "repository": "https://github.com/dotnet/dotnet",
+    "version": "10.0.5",
+    "authors": "Microsoft"
+  },
+  {
+    "licenseFiles": [
+      "Microsoft.NETCore.App.Runtime.win-x64-10.0.13-LICENSE.TXT",
+      "Microsoft.NETCore.App.Runtime.win-x64-10.0.13-THIRD-PARTY-NOTICES.TXT"
+    ],
+    "copyright": "© Microsoft Corporation. All rights reserved.",
+    "license": "MIT",
+    "package": "Microsoft.NETCore.App.Runtime.win-x64",
+    "revision": "4099f83977f4d29604a9aeb971fb0a7bc1d5f699",
+    "repository": "https://github.com/dotnet/dotnet",
+    "version": "10.0.13",
+    "authors": "Microsoft"
+  },
+  {
+    "licenseFiles": [
+      "Microsoft.NETCore.App.Runtime.win-x64-9.0.21-LICENSE.TXT",
+      "Microsoft.NETCore.App.Runtime.win-x64-9.0.21-THIRD-PARTY-NOTICES.TXT"
+    ],
+    "copyright": "© Microsoft Corporation. All rights reserved.",
+    "license": "MIT",
+    "package": "Microsoft.NETCore.App.Runtime.win-x64",
+    "revision": "d280e4fb388c6deed22d480daada060b6b456008",
+    "repository": "https://github.com/dotnet/runtime",
+    "version": "9.0.21",
+    "authors": "Microsoft"
+  },
+  {
+    "licenseFiles": [
+      "mysql-net-MySqlConnector-76f8c519f746-LICENSE"
+    ],
+    "copyright": "Copyright 2016–2024 Bradley Grainger",
+    "license": "MIT",
+    "package": "MySqlConnector",
+    "revision": "76f8c519f746d65b1847a5bf5f168a2744589958",
+    "repository": "https://github.com/mysql-net/MySqlConnector.git",
+    "version": "2.4.0",
+    "authors": "Bradley Grainger"
+  },
+  {
+    "licenseFiles": [
+      "PomeloFoundation-Pomelo.EntityFrameworkCore.MySql-58dd6883cb96-LICENSE"
+    ],
+    "copyright": "Copyright 2025 © Pomelo Foundation",
+    "license": "MIT",
+    "package": "Pomelo.EntityFrameworkCore.MySql",
+    "revision": "58dd6883cb9616fe49f671b943a826b459c0117f",
+    "repository": "https://github.com/PomeloFoundation/Pomelo.EntityFrameworkCore.MySql",
+    "version": "9.0.0",
+    "authors": "Laurents Meyer, Caleb Lloyd, Yuko Zheng"
+  },
+  {
+    "licenseFiles": [
+      "getsentry-sentry-dotnet-fee4a67e5beb-LICENSE"
+    ],
+    "copyright": "",
+    "license": "MIT",
+    "package": "Sentry.Serilog",
+    "revision": "fee4a67e5beb41530de8e1bfbe84096eeb56a4bc",
+    "repository": "https://github.com/getsentry/sentry-dotnet",
+    "version": "6.8.0",
+    "authors": "Sentry Team and Contributors"
+  },
+  {
+    "licenseFiles": [
+      "getsentry-sentry-dotnet-fee4a67e5beb-LICENSE"
+    ],
+    "copyright": "",
+    "license": "MIT",
+    "package": "Sentry",
+    "revision": "fee4a67e5beb41530de8e1bfbe84096eeb56a4bc",
+    "repository": "https://github.com/getsentry/sentry-dotnet",
+    "version": "6.8.0",
+    "authors": "Sentry Team and Contributors"
+  },
+  {
+    "licenseFiles": [
+      "serilog-serilog-sinks-console-4c9a7b6946df-LICENSE"
+    ],
+    "copyright": "",
+    "license": "Apache-2.0",
+    "package": "Serilog.Sinks.Console",
+    "revision": "4c9a7b6946dfd2d7f07a792c40bb3d46af835ee9",
+    "repository": "https://github.com/serilog/serilog-sinks-console",
+    "version": "6.0.0",
+    "authors": "Serilog Contributors"
+  },
+  {
+    "licenseFiles": [
+      "serilog-serilog-sinks-file-c7b9bc3d87f9-LICENSE"
+    ],
+    "copyright": "",
+    "license": "Apache-2.0",
+    "package": "Serilog.Sinks.File",
+    "revision": "c7b9bc3d87f9bb98572a52286135efda1e608ad6",
+    "repository": "https://github.com/serilog/serilog-sinks-file",
+    "version": "6.0.0",
+    "authors": "Serilog Contributors"
+  },
+  {
+    "licenseFiles": [
+      "serilog-serilog-573a62874260-LICENSE"
+    ],
+    "copyright": "Copyright © 2013-24 Serilog Contributors",
+    "license": "Apache-2.0",
+    "package": "Serilog",
+    "revision": "573a62874260d7a1708f620076b5469f69bc79b3",
+    "repository": "https://github.com/serilog/serilog.git",
+    "version": "4.0.0",
+    "authors": "Serilog Contributors"
+  },
+  {
+    "licenseFiles": [
+      "System.Diagnostics.EventLog-10.0.5-THIRD-PARTY-NOTICES.TXT"
+    ],
+    "copyright": "© Microsoft Corporation. All rights reserved.",
+    "license": "MIT",
+    "package": "System.Diagnostics.EventLog",
+    "revision": "a612c2a1056fe3265387ae3ff7c94eba1505caf9",
+    "repository": "https://github.com/dotnet/dotnet",
+    "version": "10.0.5",
+    "authors": "Microsoft"
+  }
+]

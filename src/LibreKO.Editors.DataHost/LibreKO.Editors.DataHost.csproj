@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <OutputType>Exe</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="../LibreKO.Editors.Core/LibreKO.Editors.Core.csproj" />
+    <ProjectReference Include="../../../LibreKO/Server/LibreKO.Common/LibreKO.Common.csproj" />
+    <Compile Include="../../../LibreKO/Server/LibreKO.Game/World/UserSessionBinaryState.cs" Link="Characters/UserSessionBinaryState.cs" />
+    <Compile Include="../../../LibreKO/Server/LibreKO.Game/World/CharacterLookRules.cs" Link="Characters/CharacterLookRules.cs" />
+    <Compile Include="../../../LibreKO/Client/src/Domain/CharacterClassCatalog.cs" Link="Characters/CharacterClassCatalog.cs" />
+    <Compile Include="../../../LibreKO/Client/src/Domain/Nations.cs" Link="Characters/Nations.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="../../../LibreKO/Server/LibreKO.Quests/LibreKO.Quests.csproj" />
+  </ItemGroup>
+</Project>
