@@ -2,6 +2,7 @@ param([string]$FixtureOwnerRoot='')
 $ErrorActionPreference='Stop'
 $editorRoot=Split-Path $PSScriptRoot
 Set-Location $editorRoot
+. (Join-Path $PSScriptRoot 'tool-paths.ps1')
 ./scripts/test-database.ps1
 $mysql=Join-Path (Resolve-MySqlBin) 'mysql.exe'
 function FixtureSql([string]$sql){ & $mysql --host=127.0.0.1 --port=33307 --user=root --database=libreko_editor_test_native --execute=$sql; if($LASTEXITCODE){throw 'Native fixture preparation failed'} }

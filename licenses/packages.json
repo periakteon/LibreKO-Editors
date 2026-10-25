@@ -99,7 +99,8 @@
   },
   {
     "licenseFiles": [
-      "Microsoft.Extensions.Configuration.Abstractions-10.0.5-THIRD-PARTY-NOTICES.TXT"
+      "Microsoft.Extensions.Configuration.Abstractions-10.0.5-THIRD-PARTY-NOTICES.TXT",
+      "dotnet-dotnet-a612c2a1056f-LICENSE.txt"
     ],
     "copyright": "© Microsoft Corporation. All rights reserved.",
     "license": "MIT",
@@ -111,7 +112,8 @@
   },
   {
     "licenseFiles": [
-      "Microsoft.Extensions.Configuration.Binder-10.0.5-THIRD-PARTY-NOTICES.TXT"
+      "Microsoft.Extensions.Configuration.Binder-10.0.5-THIRD-PARTY-NOTICES.TXT",
+      "dotnet-dotnet-a612c2a1056f-LICENSE.txt"
     ],
     "copyright": "© Microsoft Corporation. All rights reserved.",
     "license": "MIT",
@@ -123,7 +125,8 @@
   },
   {
     "licenseFiles": [
-      "Microsoft.Extensions.Configuration.CommandLine-10.0.5-THIRD-PARTY-NOTICES.TXT"
+      "Microsoft.Extensions.Configuration.CommandLine-10.0.5-THIRD-PARTY-NOTICES.TXT",
+      "dotnet-dotnet-a612c2a1056f-LICENSE.txt"
     ],
     "copyright": "© Microsoft Corporation. All rights reserved.",
     "license": "MIT",
@@ -135,7 +138,8 @@
   },
   {
     "licenseFiles": [
-      "Microsoft.Extensions.Configuration.EnvironmentVariables-10.0.5-THIRD-PARTY-NOTICES.TXT"
+      "Microsoft.Extensions.Configuration.EnvironmentVariables-10.0.5-THIRD-PARTY-NOTICES.TXT",
+      "dotnet-dotnet-a612c2a1056f-LICENSE.txt"
     ],
     "copyright": "© Microsoft Corporation. All rights reserved.",
     "license": "MIT",
@@ -147,7 +151,8 @@
   },
   {
     "licenseFiles": [
-      "Microsoft.Extensions.Configuration.FileExtensions-10.0.5-THIRD-PARTY-NOTICES.TXT"
+      "Microsoft.Extensions.Configuration.FileExtensions-10.0.5-THIRD-PARTY-NOTICES.TXT",
+      "dotnet-dotnet-a612c2a1056f-LICENSE.txt"
     ],
     "copyright": "© Microsoft Corporation. All rights reserved.",
     "license": "MIT",
@@ -159,7 +164,8 @@
   },
   {
     "licenseFiles": [
-      "Microsoft.Extensions.Configuration.Json-10.0.5-THIRD-PARTY-NOTICES.TXT"
+      "Microsoft.Extensions.Configuration.Json-10.0.5-THIRD-PARTY-NOTICES.TXT",
+      "dotnet-dotnet-a612c2a1056f-LICENSE.txt"
     ],
     "copyright": "© Microsoft Corporation. All rights reserved.",
     "license": "MIT",
@@ -171,7 +177,8 @@
   },
   {
     "licenseFiles": [
-      "Microsoft.Extensions.Configuration.UserSecrets-10.0.5-THIRD-PARTY-NOTICES.TXT"
+      "Microsoft.Extensions.Configuration.UserSecrets-10.0.5-THIRD-PARTY-NOTICES.TXT",
+      "dotnet-dotnet-a612c2a1056f-LICENSE.txt"
     ],
     "copyright": "© Microsoft Corporation. All rights reserved.",
     "license": "MIT",
@@ -183,7 +190,8 @@
   },
   {
     "licenseFiles": [
-      "Microsoft.Extensions.Configuration-10.0.5-THIRD-PARTY-NOTICES.TXT"
+      "Microsoft.Extensions.Configuration-10.0.5-THIRD-PARTY-NOTICES.TXT",
+      "dotnet-dotnet-a612c2a1056f-LICENSE.txt"
     ],
     "copyright": "© Microsoft Corporation. All rights reserved.",
     "license": "MIT",
@@ -195,7 +203,8 @@
   },
   {
     "licenseFiles": [
-      "Microsoft.Extensions.DependencyInjection.Abstractions-10.0.5-THIRD-PARTY-NOTICES.TXT"
+      "Microsoft.Extensions.DependencyInjection.Abstractions-10.0.5-THIRD-PARTY-NOTICES.TXT",
+      "dotnet-dotnet-a612c2a1056f-LICENSE.txt"
     ],
     "copyright": "© Microsoft Corporation. All rights reserved.",
     "license": "MIT",
@@ -207,7 +216,8 @@
   },
   {
     "licenseFiles": [
-      "Microsoft.Extensions.DependencyInjection-10.0.5-THIRD-PARTY-NOTICES.TXT"
+      "Microsoft.Extensions.DependencyInjection-10.0.5-THIRD-PARTY-NOTICES.TXT",
+      "dotnet-dotnet-a612c2a1056f-LICENSE.txt"
     ],
     "copyright": "© Microsoft Corporation. All rights reserved.",
     "license": "MIT",
@@ -219,7 +229,8 @@
   },
   {
     "licenseFiles": [
-      "Microsoft.Extensions.Diagnostics.Abstractions-10.0.5-THIRD-PARTY-NOTICES.TXT"
+      "Microsoft.Extensions.Diagnostics.Abstractions-10.0.5-THIRD-PARTY-NOTICES.TXT",
+      "dotnet-dotnet-a612c2a1056f-LICENSE.txt"
     ],
     "copyright": "© Microsoft Corporation. All rights reserved.",
     "license": "MIT",
@@ -231,7 +242,8 @@
   },
   {
     "licenseFiles": [
-      "Microsoft.Extensions.Diagnostics-10.0.5-THIRD-PARTY-NOTICES.TXT"
+      "Microsoft.Extensions.Diagnostics-10.0.5-THIRD-PARTY-NOTICES.TXT",
+      "dotnet-dotnet-a612c2a1056f-LICENSE.txt"
     ],
     "copyright": "© Microsoft Corporation. All rights reserved.",
     "license": "MIT",
@@ -243,7 +255,8 @@
   },
   {
     "licenseFiles": [
-      "Microsoft.Extensions.FileProviders.Abstractions-10.0.5-THIRD-PARTY-NOTICES.TXT"
+      "Microsoft.Extensions.FileProviders.Abstractions-10.0.5-THIRD-PARTY-NOTICES.TXT",
+      "dotnet-dotnet-a612c2a1056f-LICENSE.txt"
     ],
     "copyright": "© Microsoft Corporation. All rights reserved.",
     "license": "MIT",
@@ -255,7 +268,8 @@
   },
   {
     "licenseFiles": [
-      "Microsoft.Extensions.FileProviders.Physical-10.0.5-THIRD-PARTY-NOTICES.TXT"
+      "Microsoft.Extensions.FileProviders.Physical-10.0.5-THIRD-PARTY-NOTICES.TXT",
+      "dotnet-dotnet-a612c2a1056f-LICENSE.txt"
     ],
     "copyright": "© Microsoft Corporation. All rights reserved.",
     "license": "MIT",
@@ -267,7 +281,8 @@
   },
   {
     "licenseFiles": [
-      "Microsoft.Extensions.FileSystemGlobbing-10.0.5-THIRD-PARTY-NOTICES.TXT"
+      "Microsoft.Extensions.FileSystemGlobbing-10.0.5-THIRD-PARTY-NOTICES.TXT",
+      "dotnet-dotnet-a612c2a1056f-LICENSE.txt"
     ],
     "copyright": "© Microsoft Corporation. All rights reserved.",
     "license": "MIT",
@@ -279,7 +294,8 @@
   },
   {
     "licenseFiles": [
-      "Microsoft.Extensions.Hosting.Abstractions-10.0.5-THIRD-PARTY-NOTICES.TXT"
+      "Microsoft.Extensions.Hosting.Abstractions-10.0.5-THIRD-PARTY-NOTICES.TXT",
+      "dotnet-dotnet-a612c2a1056f-LICENSE.txt"
     ],
     "copyright": "© Microsoft Corporation. All rights reserved.",
     "license": "MIT",
@@ -291,7 +307,8 @@
   },
   {
     "licenseFiles": [
-      "Microsoft.Extensions.Hosting-10.0.5-THIRD-PARTY-NOTICES.TXT"
+      "Microsoft.Extensions.Hosting-10.0.5-THIRD-PARTY-NOTICES.TXT",
+      "dotnet-dotnet-a612c2a1056f-LICENSE.txt"
     ],
     "copyright": "© Microsoft Corporation. All rights reserved.",
     "license": "MIT",
@@ -303,7 +320,8 @@
   },
   {
     "licenseFiles": [
-      "Microsoft.Extensions.Logging.Abstractions-10.0.5-THIRD-PARTY-NOTICES.TXT"
+      "Microsoft.Extensions.Logging.Abstractions-10.0.5-THIRD-PARTY-NOTICES.TXT",
+      "dotnet-dotnet-a612c2a1056f-LICENSE.txt"
     ],
     "copyright": "© Microsoft Corporation. All rights reserved.",
     "license": "MIT",
@@ -315,7 +333,8 @@
   },
   {
     "licenseFiles": [
-      "Microsoft.Extensions.Logging.Configuration-10.0.5-THIRD-PARTY-NOTICES.TXT"
+      "Microsoft.Extensions.Logging.Configuration-10.0.5-THIRD-PARTY-NOTICES.TXT",
+      "dotnet-dotnet-a612c2a1056f-LICENSE.txt"
     ],
     "copyright": "© Microsoft Corporation. All rights reserved.",
     "license": "MIT",
@@ -327,7 +346,8 @@
   },
   {
     "licenseFiles": [
-      "Microsoft.Extensions.Logging.Console-10.0.5-THIRD-PARTY-NOTICES.TXT"
+      "Microsoft.Extensions.Logging.Console-10.0.5-THIRD-PARTY-NOTICES.TXT",
+      "dotnet-dotnet-a612c2a1056f-LICENSE.txt"
     ],
     "copyright": "© Microsoft Corporation. All rights reserved.",
     "license": "MIT",
@@ -339,7 +359,8 @@
   },
   {
     "licenseFiles": [
-      "Microsoft.Extensions.Logging.Debug-10.0.5-THIRD-PARTY-NOTICES.TXT"
+      "Microsoft.Extensions.Logging.Debug-10.0.5-THIRD-PARTY-NOTICES.TXT",
+      "dotnet-dotnet-a612c2a1056f-LICENSE.txt"
     ],
     "copyright": "© Microsoft Corporation. All rights reserved.",
     "license": "MIT",
@@ -351,7 +372,8 @@
   },
   {
     "licenseFiles": [
-      "Microsoft.Extensions.Logging.EventLog-10.0.5-THIRD-PARTY-NOTICES.TXT"
+      "Microsoft.Extensions.Logging.EventLog-10.0.5-THIRD-PARTY-NOTICES.TXT",
+      "dotnet-dotnet-a612c2a1056f-LICENSE.txt"
     ],
     "copyright": "© Microsoft Corporation. All rights reserved.",
     "license": "MIT",
@@ -363,7 +385,8 @@
   },
   {
     "licenseFiles": [
-      "Microsoft.Extensions.Logging.EventSource-10.0.5-THIRD-PARTY-NOTICES.TXT"
+      "Microsoft.Extensions.Logging.EventSource-10.0.5-THIRD-PARTY-NOTICES.TXT",
+      "dotnet-dotnet-a612c2a1056f-LICENSE.txt"
     ],
     "copyright": "© Microsoft Corporation. All rights reserved.",
     "license": "MIT",
@@ -375,7 +398,8 @@
   },
   {
     "licenseFiles": [
-      "Microsoft.Extensions.Logging-10.0.5-THIRD-PARTY-NOTICES.TXT"
+      "Microsoft.Extensions.Logging-10.0.5-THIRD-PARTY-NOTICES.TXT",
+      "dotnet-dotnet-a612c2a1056f-LICENSE.txt"
     ],
     "copyright": "© Microsoft Corporation. All rights reserved.",
     "license": "MIT",
@@ -387,7 +411,8 @@
   },
   {
     "licenseFiles": [
-      "Microsoft.Extensions.Options.ConfigurationExtensions-10.0.5-THIRD-PARTY-NOTICES.TXT"
+      "Microsoft.Extensions.Options.ConfigurationExtensions-10.0.5-THIRD-PARTY-NOTICES.TXT",
+      "dotnet-dotnet-a612c2a1056f-LICENSE.txt"
     ],
     "copyright": "© Microsoft Corporation. All rights reserved.",
     "license": "MIT",
@@ -399,7 +424,8 @@
   },
   {
     "licenseFiles": [
-      "Microsoft.Extensions.Options-10.0.5-THIRD-PARTY-NOTICES.TXT"
+      "Microsoft.Extensions.Options-10.0.5-THIRD-PARTY-NOTICES.TXT",
+      "dotnet-dotnet-a612c2a1056f-LICENSE.txt"
     ],
     "copyright": "© Microsoft Corporation. All rights reserved.",
     "license": "MIT",
@@ -411,7 +437,8 @@
   },
   {
     "licenseFiles": [
-      "Microsoft.Extensions.Primitives-10.0.5-THIRD-PARTY-NOTICES.TXT"
+      "Microsoft.Extensions.Primitives-10.0.5-THIRD-PARTY-NOTICES.TXT",
+      "dotnet-dotnet-a612c2a1056f-LICENSE.txt"
     ],
     "copyright": "© Microsoft Corporation. All rights reserved.",
     "license": "MIT",
@@ -533,7 +560,8 @@
   },
   {
     "licenseFiles": [
-      "System.Diagnostics.EventLog-10.0.5-THIRD-PARTY-NOTICES.TXT"
+      "System.Diagnostics.EventLog-10.0.5-THIRD-PARTY-NOTICES.TXT",
+      "dotnet-dotnet-a612c2a1056f-LICENSE.txt"
     ],
     "copyright": "© Microsoft Corporation. All rights reserved.",
     "license": "MIT",

@@ -25,6 +25,9 @@ jobs:
       - name: Build editor and helper
         shell: pwsh
         run: ./editors/scripts/build.ps1
+      - name: Dependency license inventory
+        shell: pwsh
+        run: ./editors/scripts/test-license-inventory.ps1
       - name: Core regression suite
         shell: pwsh
         run: dotnet test ./editors/tests/LibreKO.Editors.Core.Tests --nologo

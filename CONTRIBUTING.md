@@ -22,6 +22,7 @@ These checks need no game database or client packs:
 
 ```powershell
 ./scripts/test-tool-paths.ps1
+./scripts/test-license-inventory.ps1
 ./scripts/test-release-profile.ps1
 dotnet test ./tests/LibreKO.Editors.Core.Tests --nologo
 ./scripts/build.ps1
@@ -97,7 +98,7 @@ and checksums when distributing. Verify extracted packages as well as source.
    drafts across cancelled navigation and loading failures.
 6. Open a PR using the template. Avoid unrelated formatting or dependency upgrades.
 
-CI builds the solution and runs Core/tool-path checks. Database, GPU and packaged
+CI builds the solution and runs Core/tool-path/license checks. Database, GPU and packaged
 checks require additional tools and are not implied by a green Core job.
 
 Bug reports should include editor/game versions, database engine, reproduction
